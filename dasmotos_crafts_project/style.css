@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, serif;
+}
+
+header {
+    background-image: url("./images/pattern.jpeg");
+    margin: 50px 10px;
+}
+
+header h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.item-title {
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px 10px;
+}
+
+img {
+    margin: 30px 0;
+}
+
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paint h2 {
+    background-color: skyblue;
+}
