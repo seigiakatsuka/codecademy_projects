@@ -4,10 +4,7 @@ import { setItem } from "./utils/localStorage";
 
 export default function Home() {
   const [count, setCount] = useState(() => {
-    const item =
-      typeof window !== "undefined"
-        ? window.localStorage.getItem("count")
-        : null;
+    const item = window.localStorage.getItem("count");
     return (item as number) || 0;
   });
 
